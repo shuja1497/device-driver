@@ -1,0 +1,1 @@
+cmd_/home/shuja1497/os-project/driver.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/shuja1497/os-project/driver.ko /home/shuja1497/os-project/driver.o /home/shuja1497/os-project/driver.mod.o

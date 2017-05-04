@@ -1,0 +1,1 @@
+cmd_/home/shuja1497/os-project/old.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/shuja1497/os-project/old.ko /home/shuja1497/os-project/old.o /home/shuja1497/os-project/old.mod.o

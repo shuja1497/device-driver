@@ -1,0 +1,11 @@
+ sudo make
+ sudo insmod ./usb-driver.ko
+ ls /var/log/syslog
+ cat /proc/devices 
+ lsmod
+ sudo mknod -m 666 /dev/my_driver c 240 0 
+ ls -l /dev/my_driver 
+ sudo tail -f /var/log/syslog
+ cd os-project/
+ echo "helloo" > /dev/final_driver 
+ cat /dev/final_driver
